@@ -3,13 +3,13 @@ export const config = {
   specs: ['./test/*.js'],
   maxInstances: 1,
   capabilities: [{
-    platformName: 'Android',
+    'platformName': 'Android',
     'appium:deviceName': '11DF1E0HB8000PJ',
     'appium:platformVersion': '15',
     'appium:automationName': 'UiAutomator2',
     'appium:appPackage': 'io.appium.android.apis',
     'appium:appActivity': '.ApiDemos',
-    'appium:noReset': true
+    'appium:noReset': false
   }],
   logLevel: 'info',
   framework: 'mocha',
